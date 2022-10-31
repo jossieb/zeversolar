@@ -6,7 +6,7 @@ The response it returns looks like my example:
   
 1 1 xxxx yyyy M11 zzzz 14:21 29/10/2022 0 1 xyz 362 1.12 OK Error
 
-The string shows the hardware names, date and time, the current energy production in Watts, the cumulative production in Kwh and the status
+The string shows the hardware names, date and time, the current energy production in Watts, the cumulative production in kWh and the status
   
 The Python program does the following for ever:
 - opens the URL to get the inverter string
