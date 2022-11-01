@@ -17,3 +17,14 @@ The Python program does the following for ever:
   - else on error
     - go to sleep for 60 minutes
   
+## Database SQLite3
+### table ***eproduce***
+Fields:
+- **timestamp**    = local timestamp
+- **inverter**     = hardware name
+- **pac**          = energy produced in watts
+- **cum**          = cumulative per day up to timestamp, tweaked it to decimal with comma use
+- **status**       = as given by zeversolar, 0 is all fine
+- **solar_stat**   = as given by zeversolar, OK is all fine
+- **time_dat**     = timestamp of zeversolar measurement, in my case (after configuring inverter) same as local
+- **urlstat**      = 200 (response received), 500 (inverter switched off)
