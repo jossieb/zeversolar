@@ -28,3 +28,10 @@ Fields:
 - **solar_stat**   = as given by zeversolar, OK is all fine
 - **time_dat**     = timestamp of zeversolar measurement, in my case (after configuring inverter) same as local
 - **urlstat**      = 200 (response received), 500 (inverter switched off)
+
+## PowerBI
+### report ***e-stats***
+- connect PowerBI to SQLite database. You might need to install SQLite ODBC driver at ( http://www.ch-werner.de/sqliteodbc/sqliteodbc_w64.exe )
+- report on watts per interval
+- report on cumulative watts per day
+
